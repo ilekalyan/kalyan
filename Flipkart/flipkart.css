@@ -1,0 +1,283 @@
+*{margin: 0;}
+.primary_nav_bar{
+    height: 60px;
+    width: 100%;
+    border: 1px rgb(226, 213, 213) solid;
+    background-color: rgb(226, 213, 213);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.search_bar{
+    height: 30px;
+    width: 600px;
+    border-radius: 10px;
+}
+.login{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+.secondary_nav_bar{
+    height: 100px;
+    width: 100%;
+    border: 1px solid rgb(226, 213, 213);
+    background-color: rgb(226, 213, 213);
+    display: flex;
+    gap: 100px;
+}
+.items{
+    position: relative;
+    gap: 80px;
+    left: 90px;
+    top: 10px;
+}
+.products{
+    height: 80px;
+    width: 80px;
+    border: 1px rgb(226, 213, 213) solid;
+    border-radius: 50%;
+}
+.products img{
+    height: 81px;
+    width: 81px;
+}
+.mobiles_tablets{
+    height: 700px;
+    width: 100%;
+    border: 1px solid rgb(226, 213, 213);
+    background-color: rgb(226, 213, 213);
+    position: absolute;
+    top: 650px;
+}
+.box1{
+    height: 300px;
+    width: 100%;
+    border: 1px solid rgb(226, 213, 213);
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 70px;
+}
+.box1 a img{
+    height: 180px;
+    position: relative;
+    top: 10px;
+}
+.box1 p{
+    height: 100px;
+    position: absolute;
+    top: 190px;
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.box2{
+    height: 300px;
+    width: 100%;
+    border: 1px solid rgb(226, 213, 213);
+    background-color: white;
+    position: absolute;
+    top: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;   
+}
+.box2 img{
+    height: 180px;
+    position: relative;
+    top: 10px;
+}
+.box2 p{
+    height: 100px;
+    position: absolute;
+    top: 190px;
+}
+.box2 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.box3{
+    height: 300px;
+    width: 100%;
+    border: 1px solid rgb(226, 213, 213);
+    background-color: white;
+    position: absolute;
+    top: 1365px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.box3 img{
+    height: 180px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+}
+.box3 p{
+    height: 100px;
+    position: absolute;
+    top: 190px;
+}
+.box3 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.box4{
+    height: 300px;
+    width: 100%;
+    border: 1px solid rgb(226, 213, 213);
+    background-color: white;
+    position: absolute;
+    top: 1740px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.box4 img{
+    height: 180px;
+    position: relative;
+    top: 10px;
+}
+.box4 p{
+    height: 100px;
+    position: absolute;
+    top: 215px;
+}
+.box4 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.box5{
+    height: 300px;
+    width: 100%;
+    border: 1px solid rgb(226, 213, 213);
+    background-color: white;
+    position: absolute;
+    top: 2105px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.box5 img{
+    height: 180px;
+    position: relative;
+    top: 10px;
+}
+.box5 p{
+    height: 100px;
+    position: absolute;
+    top: 215px;
+}
+.box5 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.box6{
+    height: 300px;
+    width: 100%;
+    border: 1px solid rgb(226, 213, 213);
+    background-color: white;
+    position: absolute;
+    top: 2470px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.box6 img{
+    height: 180px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+}
+.box6 p{
+    height: 100px;
+    position: absolute;
+    top: 200px;
+}
+.box6 a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.adds img{
+    height: 550px;
+    width: 100%;
+}
+.fotter{
+    height: 400px;
+    width: 100%;
+    border: 1px rgb(20, 20, 104) solid;
+    background-color: rgb(20, 20, 104);
+    display: flex;
+    position: relative;
+    gap: 80px;
+    top: 2010px;
+    p{
+        color: white;
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+    a{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 50px;
+        top: 20px;
+    }
+    .group{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        left: 0px;
+        gap: 50px;
+        top: 20px;
+    }
+    .help{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        left: 0px;
+        gap: 50px;
+        top: 20px;  
+    }
+    .consumer{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        left: 0px;
+        gap: 50px;
+        top: 20px;
+    }
+    .location{
+        height: 300px;
+        width: 250px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        left: 1000px;
+        gap: 50px;
+        top: 80px;
+    }
+}
